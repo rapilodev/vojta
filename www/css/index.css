@@ -1,40 +1,48 @@
-*{
-    margin: 0;
-    padding:0;
+* {
+	margin: 0;
+	padding: 0;
 }
 
 html, body {
-    width:100%;
-    height: 100%;
-    background: #33f;
-    color:white;
-    font-family:sans-serif;
+	width: 100%;
+	height: 100%;
+	background: #33f;
+	color: white;
+	font-family: sans-serif;
 }
 
 #container {
-    width:100%;
-    height:100%;
+	width: 100%;
+	height: 100%;
 }
 
-  
-#round{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    width:100%;
-    height:50%;
-    font-size: 6em;
+#total {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 20%;
+	font-size: 2em;
 }
 
-#clock{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    width:100%;
-    height:50%;
-    font-size: 9em;
+#round {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40%;
+	font-size: 6em;
 }
 
-#container div:hover{
-    filter: contrast(100%);
+#clock {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 40%;
+	font-size: 9em;
+}
+
+#container div:hover {
+	filter: contrast(100%);
 }
