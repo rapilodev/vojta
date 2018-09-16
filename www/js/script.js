@@ -49,11 +49,15 @@ function restartClock(id, timer) {
 }
 
 $(document).ready(function() {
+    clockTimer = null;
+    totalTimer = null;
+    round = 0;
+
 	showClock("clock", 0, 0);
 	setRound(1);
 
 	$("#total").click(function() {
-		totalTimer = restartClock("total", totalTimer)
+		totalTimer = restartClock("total", totalTimer);
 		clockTimer = restartClock("clock", clockTimer);
 		setRound(1);
 	});
@@ -65,5 +69,6 @@ $(document).ready(function() {
 
 	$("#clock").click(function() {
 		clockTimer = restartClock("clock", clockTimer);
+        if (totalTimer == null) totalTimer = restartClock("total", totalTimer);
 	});
 })
