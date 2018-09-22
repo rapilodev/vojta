@@ -5,5 +5,6 @@
 * press round to start next round  
 * press on time to reset current round
 
-![example](docs/screenshot1.png)
+![example](docs/screenshot1.png) 
+![example](docs/screenshot2.png)
 
