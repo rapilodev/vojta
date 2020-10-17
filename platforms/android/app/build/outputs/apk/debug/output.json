@@ -1,1 +1,20 @@
-[{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":10004},"path":"app-debug.apk","properties":{"packageId":"org.vojta_watchclock","split":"","minSdkVersion":"16"}}]
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "vojta.clock",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 10005,
+      "versionName": "10005",
+      "enabled": true,
+      "outputFile": "app-debug.apk"
+    }
+  ]
+}

@@ -21,50 +21,6 @@
                     }
                 }
             ]
-        },
-        {
-            "outputFile": "/home/milan/build/android-apps/vojta.ok/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
-            "map": [
-                {
-                    "source": "/home/milan/build/android-apps/vojta.ok/platforms/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,55,98",
-                        "endColumns": "63,42,58",
-                        "endOffsets": "216,93,152"
-                    },
-                    "to": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,119,162",
-                        "endColumns": "63,42,58",
-                        "endOffsets": "114,157,216"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/milan/build/androidClock/clockwatch/vojta-stopwatch/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
-            "map": [
-                {
-                    "source": "/home/milan/build/androidClock/clockwatch/vojta-stopwatch/platforms/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "164,55,105",
-                        "endColumns": "63,49,58",
-                        "endOffsets": "223,100,159"
-                    },
-                    "to": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,119,169",
-                        "endColumns": "63,49,58",
-                        "endOffsets": "114,164,223"
-                    }
-                }
-            ]
         }
     ]
 }

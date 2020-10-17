@@ -5,7 +5,7 @@ export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools/
 
 # build release to platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk
-cordova build --release android
+cordova build --release android || exit 1
 
 # sign release
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore ../android.keystore platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk android
