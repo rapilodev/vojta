@@ -1,16 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="vojta.clock" version="1.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="vojta.clock" version="1.0.13" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>vojta</name>
     <description>
         A watchclock for multiple rounds
     </description>
-    <author email="rapilodev+vojta@gmail.com" href="http://cordova.io">
+    <author email="rapilodev+vojta@gmail.com" href="https://github.com/rapilodev">
         rapilodev
     </author>
     <content src="index.html" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
-    <access origin="http://localhost/*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
     <platform name="android">
+        <preference name="android-targetSdkVersion" value="34" />
         <icon density="ldpi" src="res/android/icon-32-ldpi.png" />
         <icon density="mdpi" src="res/android/icon-48-mdpi.png" />
         <icon density="hdpi" src="res/android/icon-72-hdpi.png" />
@@ -18,4 +19,5 @@
         <icon density="xxhdpi" src="res/android/icon-144-xxhdpi.png" />
         <icon density="xxxhdpi" src="res/android/icon-192-xxxhdpi.png" />
     </platform>
+
 </widget>
